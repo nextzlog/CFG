@@ -1,0 +1,52 @@
+[pkg.aktest-lua]
+tag = "旭川コンテスト"
+msg = "旭川コンテストのCFGファイルとDATファイルです (zLog Max が必要です)"
+web = "https://github.com/nextzlog/CFG"
+use = ["cfg.aktest-lua", "dat.aktest-lua"]
+exp = "stable"
+
+[cfg.aktest-lua]
+url = "https://raw.githubusercontent.com/nextzlog/CFG/master/files/aktest.cfg"
+
+[dat.aktest-lua]
+url = "https://raw.githubusercontent.com/nextzlog/CFG/master/files/aktest.dat"
+
+[pkg.hstest-lua]
+tag = "高校コンテスト"
+msg = "高校コンテストのCFGファイルとDATファイルです (zLog Max が必要です)"
+web = "https://github.com/nextzlog/CFG"
+use = ["cfg.hstest-lua", "dat.hstest-lua"]
+exp = "stable"
+
+[cfg.hstest-lua]
+url = "https://raw.githubusercontent.com/nextzlog/CFG/master/files/hstest.cfg"
+
+[dat.hstest-lua]
+url = "https://raw.githubusercontent.com/nextzlog/CFG/master/files/hstest.dat"
+
+[pkg.tmtest-lua]
+tag = "東海マラソンコンテスト"
+msg = "東海マラソンコンテストのCFGファイルとDATファイルです (zLog Max が必要です)"
+web = "https://github.com/nextzlog/CFG"
+use = ["cfg.tmtest-lua", "dat.tmtest-lua"]
+exp = "stable"
+
+[cfg.tmtest-lua]
+url = "https://raw.githubusercontent.com/nextzlog/CFG/master/files/tmtest.cfg"
+
+[dat.tmtest-lua]
+url = "https://raw.githubusercontent.com/nextzlog/CFG/master/files/tmtest.dat"
+
+[pkg.yltest-lua]
+tag = "YLコンテスト"
+msg = "JLRS主催のYLコンテストのCFGファイルとDATファイルです (zLog Max が必要です)"
+web = "https://github.com/nextzlog/CFG"
+use = ["cfg.yltest-lua", "dat.yltest-lua"]
+exp = "stable"
+
+[cfg.yltest-lua]
+url = "https://raw.githubusercontent.com/nextzlog/CFG/master/files/yltest.cfg"
+
+[dat.yltest-lua]
+url = "https://raw.githubusercontent.com/nextzlog/CFG/master/files/yltest.dat"
+
